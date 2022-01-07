@@ -9,6 +9,7 @@
     <script src="../../../src/compatibility.js"></script>
     <script src="../../../build/bundles/shumway.player.js"></script>
     <script src="../../../iframe/viewerPlayer.js"></script>
+    <iframe src="viewer.html?swf=game.swf" </iframe>
     <script>
       console.timeEnd("Load Source Files");
     </script>
@@ -255,7 +256,7 @@
     </style>
   </head>
 
-  <body onload="runViewer(game.swf)">
+  <body onload="runViewer()">
     <div id="viewer"></div>
     <section contextmenu="shumwayMenu">
       <a id="fallback" href="#">Shumway <span class="icon">&times;</span></a>
